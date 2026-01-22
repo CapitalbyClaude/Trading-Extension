@@ -9,16 +9,12 @@ It tracks trades executed on supported Solana trading terminals and evaluates pe
 - A **paper trading extension**
 - Designed for **Pump.fun and Solana memecoin trading**
 - Built as part of the **Pump.fun Hackathon**
-- Early prototype, not production software
-
 ## How it works
 
 1. The extension observes trades made on supported terminals  
 2. Trade data is analyzed off-chain  
 3. Performance metrics such as PnL, consistency, and risk profile are evaluated  
 4. Users can progress through simulated challenges based on results  
-
-Funding mechanics and live capital are **not enabled** in this version.
 
 ## Supported terminals (planned)
 
@@ -38,7 +34,7 @@ Support may be partial or mocked depending on the environment.
 ├── background.js
 └── README.md
 
-## Installation (development)
+## Installation 
 
 1. Clone the repository  
 2. Open Chrome and navigate to `chrome://extensions`  
@@ -48,11 +44,8 @@ Support may be partial or mocked depending on the environment.
 
 ## Disclaimer
 
-This project is for experimental and educational purposes only.
-
 - No financial advice  
 - No guarantees of funding  
-- No real capital is managed by this extension  
 - Use at your own risk  
 
 ## Status
